@@ -1,0 +1,20 @@
+
+.button-box{
+
+}
+
+.btn-text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: white;
+    width: 150px;
+    height: 37px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    border: none;
+}
