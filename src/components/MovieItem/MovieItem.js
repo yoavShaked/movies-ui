@@ -3,7 +3,7 @@ import './style.css';
 import deleteLogo from '../../images/delete.png';
 import saveLogo from '../../images/save.jpg';
 
-const MovieItem = ({ title, poster, genre, director, runtime, deleteMovie, saveMovie }) => {
+const MovieItem = ({ title, poster, genre, director, runtime, deleteMovie, saveMovie, withSave }) => {
 
     return (
         <div className='card'>
@@ -18,7 +18,7 @@ const MovieItem = ({ title, poster, genre, director, runtime, deleteMovie, saveM
                 <div className='title'>{runtime}</div>
                 <div className='footer'>            
                     <img className='delete-icon' src={deleteLogo} alt='deleteLogo' onClick={deleteMovie} />
-                    <img className='save-icon' src={saveLogo} alt='saveLogo' onClick={saveMovie}/>
+                    {withSave && <img className='save-icon' src={saveLogo} alt='saveLogo' onClick={saveMovie}/>}
                 </div>
             </div>
         </div>

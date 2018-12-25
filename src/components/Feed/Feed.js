@@ -1,12 +1,12 @@
 import React from 'react';
-import MoviesList from './../../containers/MoviesList/MoviesList';
 import  SearchMovie from '../../containers/SearchMovie/SearchMovie';
+import MoviesApi from '../../containers/apiMovies';
 
 const Feed = () => {
     return (
         <div>
             <SearchMovie/>
-            <MoviesList />
+            <MoviesApi />
         </div>
     );
 };

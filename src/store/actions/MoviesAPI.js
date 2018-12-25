@@ -32,7 +32,7 @@ export const fetchMovies = category => async dispatch => {
             });
             
             const movies = await Promise.all(moviesPromises);
-            dispatch({ type: FETCH_MOVIES, movies, category });
+            dispatch({ type: FETCH_MOVIES, movies});
         }
         catch (e) {
             // dispatch(faildToLoad(category, 'faild to load movies'));

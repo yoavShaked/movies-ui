@@ -4,3 +4,6 @@ export const FETCH_REJECT = 'FETCH_REJECT';
 export const SEARCH_REJECT = 'SEARCH_REJECT';
 export const ADD_MOVIE = 'ADD_MOVIE';
 export const DELETE_MOVIE = 'DELETE_MOVIE';
+export const FETCH_USER_MOVIES = 'FETCH_USER_MOVIES';
+export const DELETE_USER_MOVIE = 'DELETE_USER_MOVIE';
+export const SAVE_USER_MOVIE = 'SAVE_USER_MOVIE';
